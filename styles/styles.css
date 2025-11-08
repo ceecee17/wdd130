@@ -8,13 +8,16 @@ nav a {
     display: block;
     padding: 20px;
 }
+main{
+    max-width: fit-content;
+}
 
 h1 {
     color: darkblue;
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -23,6 +26,7 @@ main img {
 
 p {
     padding: 0px;
+    font-family: Arial, sans-serif;
 }
 aside{
     width: 20rem;
