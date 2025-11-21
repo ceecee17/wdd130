@@ -65,7 +65,7 @@ h1 {
     color: var(--primary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     top: 300px;
     width: 100%;
