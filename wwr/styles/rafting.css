@@ -73,7 +73,7 @@ h1 {
     background-color: #f2f8ff;
     border: 2px solid var(--accent2-color);
     border-radius: 10px;
-    box-shadow: rgba(119, 118, 118, 0.664);
+    box-shadow: 2px 2px 5px rgba(112, 110, 110, 0.171);;
 }
 
 .hero article img {
