@@ -23,7 +23,7 @@ header,
 main,
 footer {
     max-width: 840px;
-    margin: 0ju;
+    margin: 0px;
 }
 
 h1,
@@ -73,7 +73,7 @@ h1 {
     background-color: #f2f8ff;
     border: 2px solid var(--accent2-color);
     border-radius: 10px;
-    box-shadow: grey;
+    box-shadow: gray;
 }
 
 .hero article img {
