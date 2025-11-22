@@ -1,82 +1,180 @@
 
 :root {
-    --primary-color: #A1CDF4;
-    --secondary-color: #151828;
-    --accent1-color: #03216d;
-    --accent2-color: rgb(53, 50, 94);
-    --heading-font: "Edu QLD hand", sans-serif;
-    --body-font: "Karla", sans-serif;
+     --primary-color: #A1CDF4; 
+    --secondary-color: #151828; 
+    --accent1-color: #03216d; 
+    --accent2-color: rgb(53, 50, 94); 
+    --heading-font: "Edu QLD hand", sans-serif; 
+    --body-font: "Karla", sans-serif; 
 }
-
-* {
-    margin: 0;
-    padding: 0;
+    
+* { 
+    margin: 0; 
+    padding: 0; 
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color)
-}
+body { 
+    font-family: var(--body-font); 
+    color: var(--accent1-color) 
+} 
 
 header,
-main,
-footer {
-    max-width: 840px;
+ main, 
+ footer { 
+    max-width: 95%; 
     margin: 0px;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
+
+header{ 
+    margin: 1rem auto; 
+    display: grid; 
+    grid-template-columns: 50% 1fr; 
+    align-items:center ; 
+    padding: 10px 20px;
+    border-bottom:3px solid var(--accent2-color); 
+    background-color: var(--accent1-color); 
+} 
+
+nav ul{ 
+    display: flex; 
+    padding: 28px; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 15px;
+} 
+
+nav a{ 
+    text-decoration: none; 
+    text-align: center; 
+    color: #f2f8ff; 
+    display: inline-block; 
+    padding: 9px 18px; 
+    border: 2px solid var(--primary-color); 
+    border-radius: 25px; flex-direction: row; 
+} 
+
+h1, h2 { 
+    font-family: var(--heading-font); 
+    color: var(--secondary-color); 
+} 
+
+nav, 
+p, 
+section, 
+article { 
+    margin: 16px; 
+    padding: 8px; 
+} 
+
+.socialmedia a { 
+    text-decoration: none; 
+} 
+
+.hero { 
+    position: relative; 
+    justify-content: center;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+.hero img { 
+    display: block; 
+    width: 100%; 
+    height: auto;
+} 
+
+h1 { 
+    position: absolute; 
+    top: 0%; 
+    width: 100%; 
+    padding: 16px; 
+    text-align: center; 
+    opacity: 0.7; 
+    background-color: var(--secondary-color); 
+    color: var(--primary-color); 
 }
 
-.socialmedia a {
-    text-decoration: none;
+.hero article { 
+    position: absolute; 
+    top: 300px; 
+    width: 100%; 
+    padding: 20px; 
+    background-color: #f2f8ff; 
+    border: 2px solid var(--accent2-color); 
+    border-radius: 10px; box-shadow: 2px 2px 5px rgba(112, 110, 110, 0.171); 
+} 
+
+.hero article img { 
+    float: right; 
+    width: 125px; 
 }
 
-.hero {
-    position: relative;
+.history{
+    padding: 2rem;
+    text-align: center;
 }
 
-.hero img {
-    display: block;
+.history-grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 50% 1fr;
+    gap:15px;
+
+}
+.history-grid img{
     width: 100%;
     height: auto;
+    box-shadow: #151828;
+    border-radius: 8px;
+    justify-content: center;
 }
 
-h1 {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    padding: 16px;
+.adventure-gallery{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    justify-content: space-between;
+    padding:1rem;
+    gap: 1rem;
+    background-color: var(--accent2-color);
 }
 
-.hero article {
-    position: absolute;
-    top: 300px;
+.adventure-gallery img{
     width: 100%;
-    padding: 20px;
-    background-color: #f2f8ff;
-    border: 2px solid var(--accent2-color);
+    height: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(112, 110, 110, 0.171);;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
+.adventure-gallery figure{
+    flex: 0 0 18%;
+    box-sizing: border-box;
+}
+
+.adventure-gallery figcaption{
+    font: italic;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #f2f8ff;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--primary-color);
+}
+
+.socialmedia{
+    display: flex;
+    gap: 1rem;
+}
+.socialmedia a{
+    text-decoration: none;
+}
+.socialmedia img{
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+
 }
