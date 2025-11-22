@@ -3,7 +3,7 @@
      --primary-color: #A1CDF4; 
     --secondary-color: #151828; 
     --accent1-color: #03216d; 
-    --accent2-color: rgb(53, 50, 94); 
+    --accent2-color: #35325E; 
     --heading-font: "Edu QLD hand", sans-serif; 
     --body-font: "Karla", sans-serif; 
 }
@@ -124,7 +124,7 @@ h1 {
 .history-grid img{
     width: 100%;
     height: auto;
-    box-shadow: #151828;
+    box-shadow: 5px 5px 10px #000;
     border-radius: 8px;
     justify-content: center;
 }
