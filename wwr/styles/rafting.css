@@ -34,7 +34,7 @@ header{
     align-items:center ; 
     padding: 10px 20px;
     border-bottom:3px solid var(--accent2-color); 
-    background-color: var(--accent1-color); 
+    background-color: var(--primary-color); 
 } 
 
 nav ul{ 
@@ -66,10 +66,6 @@ section,
 article { 
     margin: 16px; 
     padding: 8px; 
-} 
-
-.socialmedia a { 
-    text-decoration: none; 
 } 
 
 .hero { 
@@ -136,7 +132,7 @@ h1 {
     justify-content: space-between;
     padding:1rem;
     gap: 1rem;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 
 .adventure-gallery img{
@@ -169,9 +165,11 @@ footer{
     display: flex;
     gap: 1rem;
 }
-.socialmedia a{
-    text-decoration: none;
-}
+
+.socialmedia a { 
+    text-decoration: none; 
+} 
+
 .socialmedia img{
     justify-content: flex-end;
     width: 100%;
