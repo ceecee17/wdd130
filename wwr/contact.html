@@ -28,15 +28,18 @@
     </header>
     <main>
         <h1>White Water Rapids</h1>
-        <p><strong>Address:</strong> 3, Unity street Igbodu, ikorodu, Lagos State, Nigeria.</p>
-        <p><strong>Phone Number:</strong>+234 812 555 0767</p>
-        <p><strong>E-mail:</strong>okaforceecee@gmail.com</p>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 3, Unity street Igbodu, ikorodu, Lagos State, Nigeria.</p>
+            <p><strong>Phone Number:</strong>+234 812 555 0767</p>
+            <p><strong>E-mail:</strong>okaforceecee@gmail.com</p>
+        </div>
+
         <section class="contact-section">
             <div class="contact-grid">
                 <div class="map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7927.309135122274!2d3.5829967257096014!3d6.565211219149867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bfaad0fedc385%3A0x121174880817cf36!2sIjede%20Tarzan%20Ferry%20Station!5e0!3m2!1sen!2sng!4v1764699535720!5m2!1sen!2sng"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
@@ -52,9 +55,21 @@
                     <input type="email" id="email" name="email" required placeholder="someone@example.com">
 
                     <p>Message purpose:</p>
-                    <label><input type="radio" name="purpose" value="general" required>General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation">Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion">Website suggestion</label>
+
+                    <label for="general">
+                        <input type="radio" id="general" name="Purpose" value="general" required>General Inquiry
+                    </label>
+
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="Purpose" value="reservation" required>Reservation
+                        Question
+                    </label>
+
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="Purpose" value="suggestion" required>Website
+                        Suggestion
+                    </label>
+
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5" required></textarea>

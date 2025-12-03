@@ -19,7 +19,7 @@ body {
     color: var(--accent1-color) 
 } 
 
-main{
+.contact-info{
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ nav ul{
 nav a{ 
     text-decoration: none; 
     text-align: center; 
-    color: #000; 
+    color: #000000; 
     display: inline-block; 
     padding: 9px 18px; 
     border: 2px solid var(--primary-color); 
@@ -84,14 +84,14 @@ article {
 } 
 
 h1 { 
-    position: absolute; 
-    top: 0%; 
+    /*position: absolute;*/
+    /*top: 0%;*/ 
     width: 100%; 
     padding: 16px; 
-    text-align: center; 
+    text-align: center;
     opacity: 0.7; 
-    background-color: var(--secondary-color); 
-    color: var(--primary-color); 
+    /*background-color: var(--secondary-color);*/ 
+    color: var(--secondary-color); 
 }
 
 .contact-section {
@@ -134,7 +134,7 @@ h1 {
 
 button[type="submit"] {
     background-color: #2c6e49;
-    color: white;
+    color: #ffffff;
     padding: 0.75em 1.5em;
     font-size: 1rem;
     border: 1px solid #000000;
@@ -175,7 +175,7 @@ button[type="submit"] {
     padding: 20px; 
     background-color: #f2f8ff; 
     border: 2px solid var(--accent2-color); 
-    border-radius: 10px; box-shadow: 2px 2px 5px rgba(112, 110, 110, 0.171); 
+    border-radius: 10px; box-shadow: 2px 2px 5px #706e6e2c; 
 } 
 
 .hero article img { 
