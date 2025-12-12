@@ -47,6 +47,7 @@ nav ul{
     justify-content: flex-end; 
     align-items: center; 
     gap: 15px;
+    list-style: none;
 } 
 
 nav a{ 
@@ -255,6 +256,7 @@ footer{
     text-align: center;
     padding: 5px;
     background-color: var(--primary-color);
+    align-items: center;
 }
 
 .socialmedia{
